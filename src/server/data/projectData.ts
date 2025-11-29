@@ -24,9 +24,9 @@ export const data = [
 		link: "https://github.com/wavygoten/nft-mint-bot",
 	},
 
-	{
-		title: "Baccarat Casino Game",
-		message: "Bacarrat Project made in Java, JavaFX, and Maven",
-		link: "https://github.com/wavygoten/Bacarrat_Project",
-	},
+	// {
+	// 	title: "Baccarat Casino Game",
+	// 	message: "Bacarrat Project made in Java, JavaFX, and Maven",
+	// 	link: "https://github.com/wavygoten/Bacarrat_Project",
+	// },
 ];

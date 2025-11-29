@@ -1,6 +1,8 @@
 import { useState, useEffect, useContext, Children } from "react";
 import { FadeIn } from "../Animations";
 import { Knowles, Latan, UIC } from "../Svg";
+import jpmclogo from "../../../public/jpmc-logo.jpeg";
+import Image from "next/image";
 type Props = {
 	experienceRef: React.MutableRefObject<HTMLDivElement | null>;
 };
@@ -28,7 +30,17 @@ const Experience = ({ experienceRef }: Props) => {
 							return (
 								<div key={i}>
 									<div className="experiences__experience">
-										{i == 0 ? <Knowles /> : i == 1 ? <UIC /> : <Latan />}
+										{i == 0 ? (
+											<div className="jpmclogo">
+												<Image src={jpmclogo} alt="jpmclogo" />
+											</div>
+										) : i == 1 ? (
+											<Knowles />
+										) : i == 2 ? (
+											<UIC />
+										) : (
+											<Latan />
+										)}
 										<div className="v-stack experience-container">
 											<div className="v-stack">
 												<div className="stack">

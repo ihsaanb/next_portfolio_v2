@@ -19,7 +19,7 @@ const Content = ({ contentRef, handleScrollClick }: Props) => {
 						You can call me <TypeWriterAnimation name="Ihsaan" />
 					</div>
 					<p className="details__description">
-						I{"'"}m an aspiring engineer living in Chicago, IL
+						I{"'"}m an IT engineer living in Chicago, IL
 					</p>
 
 					<p className="details__description">
