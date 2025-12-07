@@ -115,9 +115,9 @@ const Content = ({ contentRef, handleScrollClick }: Props) => {
 								</li>
 							</Tippy>{" "}
 						</ul> */}
-					<div className="details__spotify">
+					{/* <div className="details__spotify">
 						<Spotify />
-					</div>
+					</div> */}
 				</div>
 				{/* <div className="hero-img"></div> */}
 			</FadeIn>

@@ -12,7 +12,6 @@ const Home: NextPage = () => {
 					name="viewport"
 					content="user-scalable=no, width=device-width, initial-scale=1"
 				/>
-
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Main />
